@@ -75,11 +75,7 @@ setup(
     setup_requires=["numpy >= 1.15"],
     extras_require={
         'glpk': [
-            (
-                'cvxopt >= 1.2.0; sys_platform == "darwin" or '
-                'sys_platform == "linux" or os_name == "nt" and '
-                'python_version >= "3.5"'
-            ),
+            'cvxopt >= 1.2.0',
         ],
     },
     use_2to3=True,
